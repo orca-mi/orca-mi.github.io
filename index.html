@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ORCA-MI</title>
+<meta name="description" content="ORCA-MI: a fast Windows workstation for molecular imaging (PET, SPECT, CT): viewing, fusion, 3D, AI segmentation, registration, dosimetry and DICOM to NIfTI. Free for research.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐋</text></svg>">
+<style>
+  :root {
+    --bg: #f6f8fb; --card: #ffffff; --text: #18202b; --dim: #5b6676; --accent: #1f6feb; --accent-text: #ffffff;
+    --border: #dde3ea; --warn: #9a6700;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f141a; --card: #171e26; --text: #e6edf3; --dim: #9aa6b2; --accent: #4493f8; --accent-text: #0b1117; --border: #2a333d; --warn: #d29922; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 16px 40px; text-align: center; }
+  h1 { font-size: 46px; margin: 0; letter-spacing: .5px; }
+  .whale { font-size: 64px; line-height: 1; }
+  .full { color: var(--dim); margin: 6px 0 2px; }
+  .tag { font-style: italic; margin: 0 0 22px; }
+  p.what { margin: 0 auto 30px; max-width: 620px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 26px 20px; margin: 0 0 18px; }
+  a.btn { display: inline-block; padding: 14px 26px; border-radius: 10px; text-decoration: none; font-weight: 600; margin: 6px; }
+  a.primary { background: var(--accent); color: var(--accent-text); font-size: 19px; }
+  a.secondary { border: 1px solid var(--border); color: var(--text); }
+  .small { font-size: 14px; color: var(--dim); }
+  .links a { color: var(--accent); text-decoration: none; margin: 0 10px; white-space: nowrap; }
+  .links a:hover, .small a:hover { text-decoration: underline; }
+  .small a { color: var(--accent); }
+  ol { text-align: left; max-width: 520px; margin: 10px auto 0; padding-left: 22px; }
+  .warn { color: var(--warn); font-size: 14px; margin-top: 28px; }
+  footer { font-size: 13px; color: var(--dim); margin-top: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="whale">🐋</div>
+  <h1>ORCA-MI</h1>
+  <div class="full">Open Radiology &amp; Computational Analysis · Molecular Imaging</div>
+  <p class="tag">Agile intelligence, deep insight</p>
+  <p class="what">A fast imaging workstation for Windows, made for nuclear medicine and molecular imaging, with full CT
+    and MR support: viewing and fusion, 3D, AI segmentation, PET / SPECT quantification, dosimetry, registration and
+    DICOM to NIfTI. Free for research and education.</p>
+
+  <div class="card">
+    <a class="btn primary" href="https://github.com/orca-mi/orca-mi/releases/latest/download/ORCA-MI-setup.exe">⬇ Download for Windows</a>
+    <a class="btn secondary" href="https://github.com/orca-mi/orca-mi/releases/latest/download/ORCA-MI-portable.zip">Portable (zip)</a>
+    <div class="small">Windows 10 or 11, 64-bit · no administrator rights needed · always the latest version
+      (<a href="https://github.com/orca-mi/orca-mi/releases">all versions</a>)</div>
+  </div>
+
+  <div class="card">
+    <a class="btn secondary" href="https://www.youtube.com/@ORCA-MI">▶ Video tutorials on YouTube</a>
+    <div class="small">Short videos, one feature each: installing, requesting the licence, loading images and more.</div>
+  </div>
+
+  <div class="card">
+    <strong>Getting started</strong>
+    <ol>
+      <li>Run the installer. If Windows says “Windows protected your PC”: <em>More info → Run anyway</em>.</li>
+      <li>ORCA-MI runs as a 7-day trial. Request your <strong>free licence</strong> in the program:
+        <em>Help → Licence → Request your free licence</em>.</li>
+      <li>Load the <code>.lic</code> file you receive by e-mail. Updates are offered by ORCA-MI itself.</li>
+    </ol>
+  </div>
+
+  <div class="links">
+    <a href="https://github.com/orca-mi/orca-mi">GitHub</a>
+    <a href="https://github.com/orca-mi/orca-mi/blob/main/docs/USER_GUIDE.md">User guide</a>
+    <a href="https://github.com/orca-mi/orca-mi/blob/main/CHANGELOG.md">What's new</a>
+    <a href="https://github.com/orca-mi/orca-mi/blob/main/LICENSE">Licence</a>
+    <a href="https://github.com/orca-mi/orca-mi/issues">Feedback</a>
+  </div>
+
+  <p class="warn">For research use only. ORCA-MI is not a certified medical device and must not be used for clinical decisions.</p>
+  <footer>© 2026 Yazdan Salimi · ORCA-MI is an independent research project</footer>
+</main>
+</body>
+</html>
